@@ -60,7 +60,7 @@ public class SimpleThreads {
     public static void main(String args[]) throws InterruptedException {
 
         // 10 segundos é mais facil para um teste
-        long patience = 1000 * 10; 
+        long patience = 1000 * 10; // dado em milissegundos
 
         if (args.length > 0) {
             try {
